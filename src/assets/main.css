@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+.job_item{
+    @apply border border-gray-200 rounded-lg p-4;
+}
+.pBtn{
+    @apply bg-[#41b883] text-white px-4 py-2 rounded-md hover:bg-[#2f855a] flex items-center gap-2;
+}
+.nav a{
+    @apply text-lg font-semibold px-2 rounded-sm text-white;
+}
+.nav a.active{
+    @apply bg-[#094e2f]
+}
+
+
